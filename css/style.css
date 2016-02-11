@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Teko:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.clearfix:before, .clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+
+header {
+	height: 70px;
+	background-color: #fff;
+	font-family: 'Titillium', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 120px;
+	border: 1px solid black;
+	width: 70%;
+	display: block;
+	line-height: 150px;
+    padding: 0;
+    padding-top: 312px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+
+p {
+	font-family: 'Titillium', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	font-size: 22px;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	float: left;
+	margin-left: 20%;
+}
+
+nav {
+	float: right;
+	margin-right: 20%;
+}
+
+nav li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+
+nav li:last-child {
+	margin-right: 0
+}
+
+nav li a {
+	text-decoration: none;
+	font-color: 000;
+}
+
+.hero {
+	font: 16px/20px 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: #c6c4c5;
+	height: 1012px;
+	background: #7e7a7d url(../img/bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+	position: relative;
+}
+
+main p {
+	display: table;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.active a {
+	background-color: #fff;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 16px 82px;
+	display: table;
+	margin: auto;
+}
+
+.projects h2 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 40px;
+	display: table;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin: auto;
+	padding: 50px 0;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.projects {
+	width: 1012px;
+}
+
+.tesla	{
+	float: left;
+	width: 20%;
+}
+
+.tesla h3{
+	float: left;
+	width: 20%;
+}
+
+.tesla p {
+	font-family: 'Titillium', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #555;
+	text-align: center;
+}
+
+.discovery {
+	float: right;
+	width: 20%;
+}
+
